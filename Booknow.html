@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Van's Resort</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="Van's Resort Project/assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,200,0,0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+    <script src="./Van's Resort Project/assets/script/script2.js" defer></script>
+    <!-- Start of Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="./Van's Resort Project/assets/Logo/Van's Logo green.png" class="img-fluid" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#packages">Tour Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  data-bs-toggle="modal" data-bs-target="#policies">Policy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#terms">Terms & Condition</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn button" id="checkBtn3" style="background-color: rgb(44, 170, 71); color: white; border: 1px solid #ccc; padding: 10px;"  href="#">BOOK NOW</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+      <!-- Policies Modal -->
+      <div class="modal fade" id="policies" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+       <div class="modal-dialog  modal-dialog-scrollable modal-dialog-centered modal-xl modal-fullscreen-xl-down modal-fullscreen-lg-down modal-fullscreen-md-down">
+          <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Resort Reservation Policies</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <h4>CANCELLATION POLICIES</h4>
+
+              <p>If you must cancel your reservation, please notify us 24 hours prior to arrival to avoid a charge of one night's stay plus tax, unless otherwise noted in the terms & conditions of your booking. If you simply do not check-in, you will be charged one night's stay plus tax.</p>
+              
+              <h4>PET POLICIES</h4>
+              <p>Dogs 20 lbs. or less are welcome at a one-time charge of $250. For any room damages, additional fees may be charged at the conclusion of your stay. Unfortunately, we do not allow cats.</p>
+              
+              <h4>EARLY ARRIVALS AND LATE DEPARTURES</h4>
+
+              <p>We ask that guests contact the resort as far in advance as possible regarding early arrivals and late departures. If the resort is unable to accommodate your request, your luggage can be securely stored at the resort with our compliments.
+              </p>
+              
+              <h4>GENERAL RESERVATION INFORMATION</h4>
+              <p>Reservations must be guaranteed by a major credit card when you reserve. Blackout dates and conditions apply.
+              
+                Guests must be at least 21 years old to reserve a room. Guests under 21 years of age must be accompanied by an adult over 21 to stay in the hotel.
+                
+                For security purposes, please provide a valid government or state-issued photo ID at check-in. A hold of $200 per day must be placed on your credit card to cover incidentals.
+                
+                Van's Resort is a smoke free environment. Please note that a minimum fee of $750 will be charged if smoke is detected in guest rooms.
+                </p>
+              <h4>COVID-19</h4>
+              <p>Our priority is and always has been the health and well-being of our guests and team members. Learn about the steps we're taking to ensure your health and safety here. In compliance with local regulations and CDC guidelines, some amenities and services may be limited or unavailable during your stay. Please note that signing a COVID-19 Acknowledgement, Waiver and Release is required at check-in.</p>
+            </div>
+            <div class="modal-footer" style="background-color: #E1E6E1;">
+              <button type="button" class="btn" style="background-color: rgb(44, 170, 71); color: white; padding: 5px; border: 1px solid #ccc" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End -->
+
+      <!-- Terms & conditions Modal -->
+      <div class="modal fade" id="terms" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl modal-fullscreen-xl-down modal-fullscreen-lg-down modal-fullscreen-md-down">
+           <div class="modal-content">
+             <div class="modal-header">
+                 <h1 class="modal-title fs-5" id="exampleModalLabel">Terms and Conditions</h1>
+                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+             </div>
+             <div class="modal-body">
+              <h4>CHECK-IN AND CHECK-OUT TIMES</h4>
+              <p>Check-in time is typically 3pm and check-out time is typically 11am.</p>
+
+              <h4>DEPOSIT REQUIREMENTS</h4>
+              <p>Our resort requires a deposit to be paid at the time of booking. The amount of the deposit is 10% of the actual payment.</p>
+
+              <h4>NO SMOKING POLICY</h4>
+              <p>Our resort has a no-smoking policy.</p>
+
+              <h4>GUEST CONDUCT</h4>
+              <p>Our resort has the right to refuse service to guests who are behaving in a disruptive or offensive manner.</p>
+
+              <h4>LIABILITY</h4>
+              <p>Our resort is not liable for any loss or damage to personal belongings that occur while the guest is staying at the resort.</p>
+
+              <h4>FORCE MAJEURE</h4>
+              <p>Our resort is not liable for any disruptions or cancellations due to events beyond their control, such as weather or natural disasters.</p>
+             </div>
+             <div class="modal-footer" style="background-color: #E1E6E1;">
+               <button type="button" class="btn" style="background-color: rgb(44, 170, 71); color: white; padding: 5px; border: 1px solid #ccc" data-bs-dismiss="modal">Close</button>
+             </div>
+           </div>
+         </div>
+       </div>
+       <!-- End -->
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <img src="Van's Resort Project/assets/images/book now hero image.jpg" class="img-fluid" alt="">
+    </section>
+    <!-- Reservation Dates -->
+    <section id=reservation class="reservation-padding">
+      <div class="container">
+         <div class="row">
+             <div class="col-md-12 col-12 mx-auto ps-lg-5">
+                 <form action="" class="ps-lg-5 m-auto">
+                     <div class="row">
+                         <div class="col-md-12 col-12 mx-auto" style="display: flex; flex-direction: row; justify-content: center;">
+                             <div class="mx-2">
+                                 <label for="start-date">START DATE:</label><br>
+                                 <input type="date" id="start-date" name="start-date" required value=""><br>
+                             </div>
+                             <div class="mx-2">
+                                 <label for="end-date">END DATE:</label><br>
+                                 <input type="date" id="end-date" name="end-date" value=""><br>
+                             </div>
+                             <div class="mx-2">
+                                 <label for="quantity">ADULTS:</label><br>
+                                 <input type="number" id="adults" name="quantity" value="2" min="1" max="10" step="1">
+                             </div>
+                             <div class="mx-2">
+                                 <a href="#" class="btn button" id="checkBtn4" style="background-color: rgb(44, 170, 71); color: white; margin-top: 29px; padding: 10px; border: 1px solid #ccc"  href="#">CHECK AVAILABILITY</a>
+                             </div>
+                         </div>
+                     </div>
+                 </form>
+             </div>
+         </div>
+     </div>
+  </section>
+  <!-- End -->
+
+  <!-- Tour Packages Checkout Cards -->
+  
+  <section id="packages-checkout" class="packages-checkout section-padding2">
+        <div class="container">
+            <div class="row d-flex flex-direction-row mt-5">
+                <div class="col-lg-12 col-12 mx-auto">
+                  <div class="cart-row">
+                    <div class="cart-summary">
+                        <div class="div-summary">
+                            <span class="selection-summary">
+                              Selection Summary
+                            </span>
+                            <ul class="cart-list">
+                                    <div id="summaryBill" class="summaryBill"></div>
+                               <li class="li-last">
+                                   <div>
+                                       <h5>Total</h5>
+                                          <p>Includes Taxes & Surcharges</p>
+                                    </div>
+                                     <span class="price" id="total" value="0">0.00</span>
+                                </li>
+                              </ul>
+                            <div class="check-out">
+                                 <a href="check-out-form.html"><button class="bookBtn" id="bookNow">
+                                     CHECK OUT
+                                  </button>
+                                  </a>
+                            </div>
+                         </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-12 mt-5">
+                  <div class="available-packages">
+                    <div class="card mx-auto">
+                        <div class="row card-row">
+                           <div class="col">
+                              <div class="d-flex flex-row">
+                                   <div class="d-flex">
+                                        <img src="./Van's Resort Project/assets/images/tour package 1 image.jpg" alt="" class="img-fluid" style="height: 215px; width: 300px;">
+                                    </div>
+                                    <div class="card-text">
+                                      <h4 class="card-title">
+                                          TOUR PACKAGE 1
+                                      </h4>
+                                      <h5>Up to 5 guests | 5 days & 4 nights</h5>
+                                      <span class="material-symbols-outlined" title="Free Wifi">
+                                        wifi
+                                        </span>
+                                      <span class="material-symbols-outlined" title="Private Pool">
+                                          pool
+                                     </span>
+                                      <span class="material-symbols-outlined" title="Scuba Diving">
+                                          scuba_diving
+                                      </span>
+                                      <span class="material-symbols-outlined" title="Great Accomodation">
+                                        king_bed
+                                        </span>
+                                     <span class="material-symbols-outlined" title="Easy Beach Access">
+                                          beach_access
+                                          </span>
+                                     <span class="material-symbols-outlined" title="Spa & Relaxation">
+                                            spa
+                                            </span>
+                                      <span class="material-symbols-outlined" title="Restaurant">
+                                              restaurant
+                                              </span>
+                                      <span class="material-symbols-outlined" title="Water Sports">
+                                                kitesurfing
+                                                </span>
+                                      <p class="fst-italic text-center mt-2">"Time wasted at the beach is time well spent."</p>
+                                      <span id="tourPrice">Php. 47, 500.00</span>
+                                      <button class="select-button" id="package1Btn">SELECT</button>
+                                   </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-12 mt-5">
+                  <div class="available-packages">
+                    <div class="card mx-auto">
+                        <div class="row card-row">
+                           <div class="col">
+                              <div class="d-flex flex-row">
+                                   <div class="d-flex">
+                                        <img src="./Van's Resort Project/assets/images/tour package 2 image.jpg" alt="" class="img-fluid" style="height: 215px; width: 300px;">
+                                    </div>
+                                    <div class="card-text">
+                                        <h4 class="card-title">
+                                            TOUR PACKAGE 2
+                                        </h4>
+                                        <h5>Up to 5 guests | 3 days & 2 nights</h5>
+                                        <span class="material-symbols-outlined" title="Free Wifi">
+                                          wifi
+                                          </span>
+                                        <span class="material-symbols-outlined" title="Private Pool">
+                                            pool
+                                       </span>
+                                        <span class="material-symbols-outlined" title="Scuba Diving">
+                                            scuba_diving
+                                        </span>
+                                        <span class="material-symbols-outlined" title="Great Accomodation">
+                                          king_bed
+                                          </span>
+                                       <span class="material-symbols-outlined" title="Easy Beach Access">
+                                            beach_access
+                                            </span>
+                                       <span class="material-symbols-outlined" title="Spa & Relaxation">
+                                              spa
+                                              </span>
+                                        <span class="material-symbols-outlined" title="Restaurant">
+                                                restaurant
+                                                </span>
+                                        <span class="material-symbols-outlined" title="Water Sports">
+                                                  kitesurfing
+                                                  </span>
+                                        <p class="fst-italic text-center mt-2">"Life's too short to not enjoy the beach."</p>
+                                        <span id="tourPrice">Php. 27, 500.00</span>
+                                        <button class="select-button" id="package2Btn">SELECT</button>
+                                     </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-12 mt-5">
+                  <div class="available-packages">
+                    <div class="card mx-auto">
+                        <div class="row card-row">
+                           <div class="col">
+                              <div class="d-flex flex-row">
+                                   <div class="d-flex">
+                                        <img src="./Van's Resort Project/assets/images/tour package 3 image.jpg" alt="" class="img-fluid" style="height: 215px; width: 300px;">
+                                    </div>
+                                    <div class="card-text">
+                                      <h4 class="card-title">
+                                          TOUR PACKAGE 3
+                                      </h4>
+                                      <h5>Up to 5 guests | 2 days & 1 night</h5>
+                                      <span class="material-symbols-outlined" title="Free Wifi">
+                                        wifi
+                                        </span>
+                                      <span class="material-symbols-outlined" title="Private Pool">
+                                          pool
+                                     </span>
+                                      <span class="material-symbols-outlined" title="Scuba Diving">
+                                          scuba_diving
+                                      </span>
+                                      <span class="material-symbols-outlined" title="Great Accomodation">
+                                        king_bed
+                                        </span>
+                                     <span class="material-symbols-outlined" title="Easy Beach Access">
+                                          beach_access
+                                          </span>
+                                     <span class="material-symbols-outlined" title="Spa & Relaxation">
+                                            spa
+                                            </span>
+                                      <span class="material-symbols-outlined" title="Restaurant">
+                                              restaurant
+                                              </span>
+                                      <span class="material-symbols-outlined" title="Water Sports">
+                                                kitesurfing
+                                                </span>
+                                      <p class="fst-italic text-center mt-2">"All you need is a good dose of vitamin sea."</p>
+                                      <span id="tourPrice">Php. 17, 500.00</span>
+                                      <button class="select-button" id="package3Btn">SELECT</button>
+                                   </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+  </section>
+  <!-- End -->
+
+   <!-- Footer -->
+   <footer id="footer">
+    <div class="container">
+        <div class="row d-flex flex-direction-row">
+            <div class="col-lg-4 col-12 p-2 text-center"> 
+                <img src="./Van's Resort Project/assets/Logo/Van's Logo green.png" style="width: 70px;" alt="" class="pb-2">
+                <p class="pt-1">6969 Waterworld, Matalom,<br> Leyte, Philippines</p>
+                <div>
+                  <i class="bi bi-facebook"></i>
+                  <i class="bi bi-instagram"></i>
+                  <i class="bi bi-twitter"></i>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12 p-2 text-center">
+                <h3>Quicklinks</h3>
+                <a href="#packages"><p>Tour Packages</p></a>
+                <a href="#accomodation"><p>Accomodation</p></a>
+                <a href="#activities"><p>Activities</p></a>
+                <a href="Booknow.html"><p>Book Now</p></a>
+            </div>
+            <div class="col-lg-4 col-12 text-center p-2">
+                <h3>Get Exclusive News/Deals</h3>
+                <input type="text" style="width: 300px;">
+                <a href="#"><button style="background-color: rgb(44, 170, 71); color: white; border: 1px solid #ccc; padding: 2px; border-radius: 5px;">SUBSCRIBE</button></a>
+                <h5 class="p-2 text-center">ABOUT US</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, molestiae voluptatibus provident voluptatum recusandae quas repellendus voluptate! Aspernatur maxime exercitationem cupiditate? Vero ad possimus est corporis id dolore veritatis mollitia recusandae voluptates soluta ipsam saepe nulla, modi enim corrupti pariatur magni itaque assumenda sapiente cupiditate quidem sit cumque. Doloribus, illum.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="col-lg-12 col-12 text-center">
+        <p class="lead-text">Copyright © Van's Resort | Designed by Alex Gay</p>
+    </div>
+
+
+</footer>
+<!-- End -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,693 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', serif;
+}
+
+.navbar {
+    background-color: #E1E6E1;
+}
+
+.navbar-brand img {
+    width: 70px;
+}
+
+.nav-item a {
+    color: black;
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.nav-item a:hover {
+    color: rgb(44, 170, 71);
+}
+
+.carousel-item img {
+    height: 80vh;
+    width: 100%;
+  }
+
+.reservation-padding {
+    padding: 20px 0;
+}
+
+.section-padding {
+    padding: 70px 0;
+}
+
+.section-padding2 {
+    padding: 10px 0 40px 0;
+}
+#reservation input {
+    padding: 10px;
+}
+
+#reservation label {
+    font-size: larger;
+    color: black;
+}
+
+#reservation {
+    border-bottom: 1px solid rgb(204, 199, 199);
+    background-color: #E1E6E1;
+}
+
+#start-date {
+    /* background-color: #f8f8f8; */
+    background-color: rgb(44, 170, 71);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* color: #333; */
+    color: white;
+    appearance: none;
+    -webkit-appearance: none;
+}
+/* #start-date::-webkit-calendar-picker-indicator {
+    display: contents;
+} */
+
+#end-date {
+    background-color: rgb(44, 170, 71);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* color: #333; */
+    color: white;
+    appearance: none;
+    -webkit-appearance: none;
+}
+/* #end-date::-webkit-calendar-picker-indicator {
+    display: contents;
+} */
+#packages .card {
+    background-color: #E1E6E1;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.modal-header {
+    background-color: #E1E6E1;
+}
+#quantity {
+    background-color: rgb(44, 170, 71);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* color: #333; */
+    color: white;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+#quantity::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+#accomodation .card {
+    position: relative;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#accomodation .card-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#activities .card {
+    position: relative;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#activities .card-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#news .card {
+    background-color: #E1E6E1;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#testimonials .card {
+    background-color: #E1E6E1;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    height: auto;
+
+}
+
+footer {
+    background-color: #E1E6E1;
+    color: #000;
+    padding: 20px;
+    /* text-align: center; */
+  }
+
+  #footer .img {
+    width: 70px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+#footer a {
+    color: #000;
+    text-decoration: none;
+}
+#footer a:hover {
+    color:rgb(44, 170, 71);
+}
+#footer i {
+    font-size: larger;
+    padding: 3px;
+    display: inline-block;
+}
+
+#footer i:hover {
+    transform: scale(2.0);
+    color:rgb(44, 170, 71);
+  }
+      
+#hero img{
+    height: 80vh;
+    width: 100%;
+
+}
+
+/* Selection Summary */
+.cart-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    margin: 30px auto;
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.cart-summary {
+    order: 2;
+    width: 100%;
+    padding: 20px 10px 10px 10px;
+    height: auto;
+}
+
+.div-summary {
+    position: sticky;
+    top: 100px;
+    padding: 10px;
+}
+.cart-summary span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.cart-list {
+    padding: 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 10px;
+}
+.cart-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 15px;
+    list-style-type: none;
+    border: 1px solid black;
+    color: black;
+    align-items: center;
+}
+
+.li-last h5 {
+    padding: 0px;
+    margin: 5px 0px 0px;
+}
+.li-last p {
+    font-size: 12px;
+}
+.li-last span {
+    font-size: 20px;
+    align-self: first baseline;
+    margin: 5px 0px 0px;
+    padding: 0px;
+}
+
+.check-out {
+    text-align: center;
+}
+.bookBtn {
+    background-color: rgb(44, 170, 71); 
+    color: white; 
+    padding: 5px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.available-packages .card{
+    background-color: #E1E6E1;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}   
+
+.card-text{
+    padding: 10px;
+}
+.card-text h5 {
+    display: block;
+    text-align: justify;
+    font-weight: 600;
+}
+
+.card-text p {
+    text-align: justify;
+    font-size: 14px;
+}
+.room-icons span {
+    text-align: center;
+    font-size: 16px;
+}
+#tourPrice{
+    font-size: 25px;
+}
+#package1Btn , #package2Btn, #package3Btn {
+    background-color: rgb(44, 170, 71); 
+    color: white; 
+    padding: 5px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#packages-checkout .card{
+    width: 50%;
+    align-self: center;
+
+}
+
+/* JS CSS */
+.summaryBill {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 0;
+    max-height: auto;
+   
+}
+.bill-div {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    border: 1px solid black;
+    margin:  3px 0;
+    padding: 0 0 10px 10px; 
+}
+
+.bill-div input {
+    width: auto;
+    background-color: transparent;
+    border: 0;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    margin: 0;
+}
+.bill-div .less-price {
+    color: green;
+    font-style: italic;
+}
+
+.bill-div .del-button {
+    background-color: rgb(44, 170, 71); 
+    color: white; 
+    padding: 5px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+.bill-div .del-button:hover {
+    background-color: crimson;
+    color: #000;
+    border: 1px solid #ccc;
+}
+
+/* BREAKPOINTS */
+@media (max-width: 1200px) {
+    #hero img{
+        height: auto;
+        width: auto;
+    }
+    #packages-checkout .card {
+        width: 600px;
+    }
+    #testimonials .card {
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width: 991px) {
+    #hero img{
+        height: auto;
+        width: auto;
+    }
+    #packages-checkout .card {
+        width: 600px;
+    }
+    .cart-summary {
+        margin-right: 50px;
+    }
+    .div-summary {
+        width: 450px;
+    }
+    .carousel-item img {
+        height: auto;
+        width: 100%;
+      }
+    #checkBtn1, #checkBtn3 {
+        width: 150px;
+    }
+    #packages .card {
+        width: 500px;
+        margin-bottom: 20px;
+        margin-left: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #accomodation .card {
+        width: 500px;
+        margin-bottom: 20px;
+        margin-left: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #activities .card {
+        width: 500px;
+        margin-bottom: 20px;
+        margin-left: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #news .card {
+        width: 500px;
+        margin-bottom: 20px;
+        margin-left: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #testimonials .card {
+        width: 350px;
+        margin-bottom: 20px;
+        margin-left: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    #hero img{
+        height: auto;
+        width: auto;
+    }
+    #packages-checkout .card {
+        width: 500px;
+    }
+    .div-summary {
+        width: 300px;
+    }
+    .carousel-item img {
+        height: auto;
+        width: 100%;
+      }
+    #checkBtn2, #checkBtn4 {
+        width: 180px;
+    }
+    #packages .card {
+        width: 400px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #accomodation .card {
+        width: 400px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #activities .card {
+        width: 400px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #news .card {
+        width: 400px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #testimonials .card {
+        margin-bottom: 20px;
+        margin-left: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #testimonials .testi {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 615px) {
+    #hero img{
+        height: auto;
+        width: auto;
+    }
+    #packages-checkout .card {
+        width: auto;
+    }
+    .div-summary {
+        width: 300px;
+        height: auto;
+    }
+    .summaryBill, .bill-div {
+        width: auto;
+        height: auto;
+    }
+    .carousel-item img {
+        height: auto;
+        width: 100%;
+      }
+      input {
+        width: 70px;
+        height: 50px;
+      }   
+        
+      #checkBtn2, #checkBtn4 {
+        width: auto;
+        font-size: 10px;
+        height: 40px ;
+      }
+
+      #checkBtn1, #checkBtn3 {
+        width: 100px;
+        font-size: 10px;
+        height: 40px;
+      }
+     
+}
+
+@media (max-width: 450px) {
+    #hero img{
+        height: auto;
+        width: auto;
+    }
+    #packages-checkout .card {
+        width: auto;
+    }
+    .cart-summary {
+        margin-right: 100px;
+    }
+    .div-summary {
+        width: 300px;
+        /* margin-right: 100px; */
+    }
+    .summaryBill, .bill-div {
+        width: auto;
+        height: auto;
+    }
+    .carousel-item img {
+        height: auto;
+        width: auto;
+    }
+    input {
+        width: 70px;
+    }
+    #adults {
+        margin-top: 30px;
+    }
+    #checkBtn2 {
+        width: auto;
+        margin-top: 30px;
+    }
+    #packages .card {
+        width: 300px;
+        margin-bottom: 20px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #accomodation .card {
+        width: 300px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #activities .card {
+        width: 300px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #news .card {
+        width: 300px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #testimonials .card {
+        width: 300px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+@media (max-width: 365px) {
+    #hero img{
+        height: auto;
+        width: auto;
+    }
+    #packages-checkout .card {
+        width: auto;
+    }
+    .cart-summary {
+        margin-right: 150px;
+    }
+    .div-summary {
+        width: 300px;
+    }
+    .summaryBill, .bill-div {
+        width: auto;
+        height: auto;
+    }
+    .carousel-item img {
+        height: auto;
+        width: auto;
+    }
+    input {
+        width: 50px;
+    }
+    #adults {
+        margin-top: 30px;
+    }
+    #checkBtn2 {
+        width: auto;
+        margin-top: 30px;
+    }
+    #packages .card {
+        width: 300px;
+        margin-bottom: 20px;
+        margin-left: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #accomodation .card {
+        width: 300px;
+        margin-bottom: 20px;
+        margin-left: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #activities .card {
+        width: 300px;
+        margin-bottom: 20px;
+        margin-left: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #news .card {
+        width: 300px;
+        margin-bottom: 20px;
+        margin-left: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #testimonials .card {
+        width: 300px;
+        margin-bottom: 20px;
+        margin-left: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #testimonials .testi {
+        margin-left: 50px;
+    }
+}
